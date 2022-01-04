@@ -1,0 +1,18 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: var(--color-background);
+    color: var(--color-main-text) ;  
+}
+
+:root {
+    --color-background: #1b1919;
+    --color-sec-background:#2b2727;
+    --color-main-text: #FFF4E6;
+    --color-sec-text: #854442;
+}
