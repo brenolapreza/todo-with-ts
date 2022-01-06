@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import './styles.css';
+import './styles.scss';
 import { IoMdTrash, IoIosEye } from 'react-icons/io'
 
 type Iitems = {
@@ -52,7 +52,7 @@ export default function Item() {
                     {item.map((v, i) => (
                         <ul className="listItem" key={i}>
                             <li>
-                                <div>
+                                <div className="wrapperListItem">
                                     <h2>{v.nome}</h2>
                                     <p>{v.descricao}</p>
                                     <span>{v.data}</span>
